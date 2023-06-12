@@ -532,8 +532,8 @@ void main()
 	uint8_t Nonce[Nb] = {0,};
 	uint8_t ctr_ct[Nb] = {0,};
 	uint8_t ctr_pt[Nb] = {0,};
-	uint8_t ctLen = 0;
-	uint8_t ptLen = 16;
+	uint32_t ctLen = 0;
+	uint32_t ptLen = 16;
 
 	memcpy(Nonce, pt, sizeof(uint8_t)*Nb);
 
